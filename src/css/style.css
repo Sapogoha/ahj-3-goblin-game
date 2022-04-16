@@ -52,7 +52,7 @@ body {
   justify-content: space-around;
   background-color: fff;
   position: relative;
-  cursor: url(../img/trident.png), progress;
+  cursor: url("../img/hammer.png"), w-resize;
 }
 
 .position__box {
