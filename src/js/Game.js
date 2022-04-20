@@ -1,33 +1,3 @@
-// export default function drawBoard(boardSize) {
-//   const wrapper = document.createElement('div');
-//   wrapper.classList.add('wrapper');
-
-//   const container = document.createElement('div');
-//   container.classList.add('container');
-//   wrapper.append(container);
-
-//   container.innerHTML = `
-//     <h1 class="title">Goblin Game</h1>
-//     <div class="position">
-//       <div class="position__box">
-//       <span data-id="hit">Hit: 0</span>
-//       <span data-id="missed">Missed: 0</span>
-//       </div>
-//       <div data-id="board-container" class="board-container">
-//         <div data-id="board" class="board"></div>
-//       </div>
-//     </div>
-//    `;
-
-//   for (let i = 0; i < boardSize ** 2; i += 1) {
-//     const cell = document.createElement('div');
-//     cell.classList.add('cell');
-//     cell.dataset.id = i;
-//     container.querySelector('[data-id=board]').appendChild(cell);
-//   }
-//   document.body.append(wrapper);
-// }
-
 export default class Game {
   constructor() {
     this.boardSize = 4;

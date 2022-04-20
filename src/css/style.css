@@ -44,6 +44,10 @@ body {
   background-color: red;
 }
 
+.board-container {
+  cursor: url(../img/hammer.png) 50 50, pointer;
+}
+
 .board {
   width: 100%;
   height: 100%;
@@ -52,7 +56,6 @@ body {
   justify-content: space-around;
   background-color: fff;
   position: relative;
-  cursor: url("../img/hammer.png"), w-resize;
 }
 
 .position__box {
